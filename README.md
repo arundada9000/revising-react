@@ -31,17 +31,23 @@ npm run lint
 
 ```text
 src/
-├── App.jsx         - Root application component
-├── main.jsx        - Application entry point
-├── index.css       - Global styles
-└── assets/         - Images and static resources
+├── App.jsx            - Root application component
+├── main.jsx           - Application entry point
+├── index.css          - Global styles
+└── assets/            - Images and static resources
+customeReact/
+├── index.html         - Custom React-like renderer demo
+└── script.js          - Custom render function implementation
 ```
 
 ## Topics covered
 
 - Vite + React project setup
 - JSX syntax and component structure
+- JSX expressions (embedding variables)
 - StrictMode and createRoot API
+- Custom render function (how React works under the hood)
+- DOM manipulation fundamentals
 
 ## Author
 
