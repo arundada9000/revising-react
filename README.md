@@ -6,6 +6,7 @@ A personal repository for revising and deepening my understanding of React.js. T
 
 - **React** 19.x
 - **Vite** 8.x (build tool)
+- **Tailwind CSS** 4.x (styling)
 - **ESLint** 10.x (linting)
 
 ## Getting started
@@ -33,7 +34,9 @@ npm run lint
 src/
 ├── App.jsx            - Root application component
 ├── main.jsx           - Application entry point
-├── index.css          - Global styles
+├── index.css          - Global styles (Tailwind import)
+├── components/        - Reusable React components
+│   └── Counter.jsx    - useState example with counter
 └── assets/            - Images and static resources
 customeReact/
 ├── index.html         - Custom React-like renderer demo
@@ -48,6 +51,9 @@ customeReact/
 - StrictMode and createRoot API
 - Custom render function (how React works under the hood)
 - DOM manipulation fundamentals
+- useState hook and state management
+- Event handling in React (onClick)
+- Tailwind CSS v4 integration with Vite
 
 ## Author
 
