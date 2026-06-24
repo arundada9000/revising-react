@@ -36,7 +36,10 @@ src/
 ├── main.jsx           - Application entry point
 ├── index.css          - Global styles (Tailwind import)
 ├── components/        - Reusable React components
-│   └── Counter.jsx    - useState example with counter
+│   ├── Counter.jsx    - useState example with counter
+│   ├── Card.jsx       - Props example (name, btnText)
+│   ├── BgChanger.jsx  - useState for background color switching
+│   └── PasswordGenerator.jsx - useState, useMemo for password generation
 └── assets/            - Images and static resources
 customeReact/
 ├── index.html         - Custom React-like renderer demo
@@ -52,8 +55,12 @@ customeReact/
 - Custom render function (how React works under the hood)
 - DOM manipulation fundamentals
 - useState hook and state management
+- Functional state updates (setCount with callback)
+- Props: passing data to components
+- useMemo hook for derived state
 - Event handling in React (onClick)
 - Tailwind CSS v4 integration with Vite
+- Clipboard API (navigator.clipboard.writeText)
 
 ## Author
 
