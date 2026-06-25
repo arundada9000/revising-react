@@ -41,7 +41,17 @@ src/
 │   ├── BgChanger.jsx  - useState for background color switching
 │   ├── InputBox.jsx   - Controlled input component with useId
 │   ├── PasswordGenerator.jsx - useState, useMemo for password generation
-│   └── CurrencyConverter.jsx - Currency conversion form wrapper
+│   ├── CurrencyConverter.jsx - Currency conversion form wrapper
+│   ├── Layout.jsx     - Root layout with Header/Footer and Outlet
+│   ├── Header.jsx     - Navigation bar with NavLink
+│   ├── Footer.jsx     - Footer with resource links and social icons
+│   ├── Home.jsx       - Home page with GitHub user card
+│   ├── About.jsx      - About page
+│   ├── Contact.jsx    - Contact page with form
+│   ├── User.jsx       - Dynamic user page with useParams
+│   ├── Github.jsx     - GitHub profile fetcher with useEffect
+│   ├── ResourceLayout.jsx - Layout wrapper for resource demos
+│   └── Resources.jsx  - Resources index page
 ├── hooks/             - Custom React hooks
 │   └── useCurrencyInfo.js - Custom hook for fetching currency exchange rates
 └── assets/            - Images and static resources
@@ -71,6 +81,11 @@ customeReact/
 - useEffect for API data fetching
 - Currency exchange rate API integration
 - Conditional rendering with disabled state
+- react-router-dom: createBrowserRouter, RouterProvider
+- Nested routes and layout with Outlet
+- NavLink with active class detection
+- Dynamic routing with useParams
+- Resource routing and nested layouts
 
 ## Author
 
