@@ -28,7 +28,7 @@ const BgChanger = () => {
         Red
       </button>
       <button
-        onClick={() => setCurrentColor("Blue")}
+        onClick={() => setCurrentColor("blue")}
         className="bg-blue-400 text-white cursor-pointer px-4 py-2 rounded-xl"
       >
         Blue
