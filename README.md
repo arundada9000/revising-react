@@ -39,7 +39,11 @@ src/
 │   ├── Counter.jsx    - useState example with counter
 │   ├── Card.jsx       - Props example (name, btnText)
 │   ├── BgChanger.jsx  - useState for background color switching
-│   └── PasswordGenerator.jsx - useState, useMemo for password generation
+│   ├── InputBox.jsx   - Controlled input component with useId
+│   ├── PasswordGenerator.jsx - useState, useMemo for password generation
+│   └── CurrencyConverter.jsx - Currency conversion form wrapper
+├── hooks/             - Custom React hooks
+│   └── useCurrencyInfo.js - Custom hook for fetching currency exchange rates
 └── assets/            - Images and static resources
 customeReact/
 ├── index.html         - Custom React-like renderer demo
@@ -61,6 +65,12 @@ customeReact/
 - Event handling in React (onClick)
 - Tailwind CSS v4 integration with Vite
 - Clipboard API (navigator.clipboard.writeText)
+- useId hook for accessible label-input binding
+- Controlled components and form inputs
+- Custom hooks (useCurrencyInfo)
+- useEffect for API data fetching
+- Currency exchange rate API integration
+- Conditional rendering with disabled state
 
 ## Author
 
