@@ -1,7 +1,5 @@
 const CurrencyConverter = () => {
-  return <div>
-    
-  </div>;
+  return <div>CurrencyConverter</div>;
 };
 
 export default CurrencyConverter;
