@@ -14,6 +14,7 @@ import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import User from "./components/User.jsx";
 import Github from "./components/Github.jsx";
+import { getGithubData } from "./helpers/githubLoader.js";
 
 import ResourceLayout from "./components/ResourceLayout.jsx";
 import Resources from "./components/Resources.jsx";
@@ -42,7 +43,7 @@ const router = createBrowserRouter(
       <Route path="contact" element={<Contact />}></Route>
       <Route path="about" element={<About />}></Route>
       <Route path="user/:userid" element={<User />}></Route>
-      <Route path="github" element={<Github />}></Route>
+      <Route loader={getGithubData} path="github" element={<Github />}></Route>
     </Route>,
     <Route path="/resources" element={<ResourceLayout />}>
       <Route path="" element={<Resources />}></Route>
