@@ -1,4 +1,7 @@
 import { useState } from "react";
+import UserContextProvider from "../context/UserContextProvider";
+import Login from "./Login";
+import Profile from "./Profile";
 // hooks -> useState
 const Counter = () => {
   const [count, setCount] = useState(10);
@@ -32,6 +35,10 @@ const Counter = () => {
         Reset
       </button>
       <p>{count}</p>
+      <UserContextProvider>
+        <Login />
+        <Profile />
+      </UserContextProvider>
     </div>
   );
 };
