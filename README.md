@@ -49,9 +49,17 @@ src/
 │   ├── About.jsx      - About page
 │   ├── Contact.jsx    - Contact page with form
 │   ├── User.jsx       - Dynamic user page with useParams
-│   ├── Github.jsx     - GitHub profile fetcher with useEffect
+│   ├── Github.jsx     - GitHub profile with useLoaderData
+│   ├── Login.jsx      - Login form with useContext
+│   ├── Profile.jsx    - User profile display with useContext
 │   ├── ResourceLayout.jsx - Layout wrapper for resource demos
 │   └── Resources.jsx  - Resources index page
+├── context/           - React Context providers
+│   ├── UserContext.js  - User authentication context
+│   ├── UserContextProvider.jsx - User context provider component
+│   └── theme.js        - Theme context with custom hook
+├── helpers/           - Utility and data loading helpers
+│   └── githubLoader.js - GitHub API loader for react-router
 ├── hooks/             - Custom React hooks
 │   └── useCurrencyInfo.js - Custom hook for fetching currency exchange rates
 └── assets/            - Images and static resources
@@ -86,6 +94,10 @@ customeReact/
 - NavLink with active class detection
 - Dynamic routing with useParams
 - Resource routing and nested layouts
+- React Context (createContext, useContext)
+- Context Provider pattern for global state
+- Route loaders with useLoaderData
+- Separating data loading from components (Fast Refresh)
 
 ## Author
 
